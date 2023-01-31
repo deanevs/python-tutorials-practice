@@ -1,0 +1,7 @@
+x create instance of checkout class
+x add item price
+x add an item
+x calc the current total
+x add multiple items and get correct total
+- add discount rules
+- apply discount rules to the total
