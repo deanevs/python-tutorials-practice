@@ -1,0 +1,11 @@
+Objects are an instance of a Class
+
+OOP - robustness, adaptability & reusability
+
+_variable is regarded as protected
+__variable is regarded as private
+
+ABC - Abstract Base Class if its only purpose is to serve as a base class through inheritance (e.g. progression seq)
+More formally, ab ABC cannot be directly instantiated, whilst a concrete class can be.
+
+

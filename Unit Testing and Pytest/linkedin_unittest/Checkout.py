@@ -50,7 +50,7 @@ class Checkout:
     def calculateItemDiscountedTotal(self, item, cnt, discount):
         total = 0
         nbrOfDiscounts = cnt / discount.nbrItems
-        total += nbrOfDiscounts * discount.price
+        total += nbrOfDiscounts * discount._price
         remaining = cnt % discount.nbrItems
         total += remaining * self.prices[item]
         return total
